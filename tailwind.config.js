@@ -6,8 +6,13 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily:{
+      roboto:['roboto','sans-serif']
+    },
     extend: {
       colors: {
+        'customBlue':'#0000e5',
+        'customGreen':'#13ce66',
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
