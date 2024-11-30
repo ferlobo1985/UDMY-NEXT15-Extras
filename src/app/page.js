@@ -9,6 +9,12 @@ export default function Home() {
         <div className="card">
           Card
         </div>
+
+        <div className="someClass">
+            Sass works !!
+        </div>
+
+
       </div>
     </>
   );
